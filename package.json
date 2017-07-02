@@ -4,8 +4,8 @@
   "description": "Example Node Server w/ Babel",
   "main": "lib/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node inde.js",
+    "watch": "export NODE_ENV=development; nodemon index.js",
+    "start": "export NODE_ENV=production; node inde.js",
     "test": "mocha --compilers js:babel-register",
     "prettier": "./node_modules/.bin/prettier --single-quote --write --jsx-bracket-same-line \"./**/*.{js,scss,css,less}\""
   },
