@@ -12,7 +12,7 @@ npm install yarn -g
 ```bash
 yarn install
 
-# 3 main commands
+# 4 main commands
 yarn watch          # starts server in watch mode
 yarn start          # starts server in non-watching mode
 yarn test           # tests your code
