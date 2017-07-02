@@ -18,3 +18,6 @@ yarn start          # starts server in non-watching mode
 yarn test           # tests your code
 yarn prettier       # formats your code
 ```
+## References
+`npm-upgrade`: https://www.npmjs.com/package/npm-upgrade
+`node-config`: https://github.com/lorenwest/node-config
